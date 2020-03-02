@@ -1,0 +1,5 @@
+{
+   "webcredentials": {
+       "apps": ["YQJ82VB6T9.com.rumahtaslucu.garry"]
+    }
+}
