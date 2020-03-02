@@ -61,6 +61,7 @@ class Kernel extends HttpKernel
         'auth.reject' => \App\Http\Middleware\RedirectIfUnauthenticated::class,
         'check.privilege' => \App\Http\Middleware\CheckPrivilege::class,
         'preventBackHistory' => \App\Http\Middleware\PreventBackHistory::class,
+        'cors' => \Barryvdh\Cors\HandleCors::class,
     ];
 
     /**
